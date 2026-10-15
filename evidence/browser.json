@@ -1,0 +1,46 @@
+{
+  "category": "Bureau 1792027974985",
+  "devices": [
+    {
+      "id": 1,
+      "label": "Lampe",
+      "description": "Lampe du salon",
+      "state": true,
+      "photo": null,
+      "categorie": {
+        "id": 1,
+        "label": "Salon c76a06",
+        "appareilList": [
+          {
+            "id": 1,
+            "label": "Lampe",
+            "description": "Lampe du salon",
+            "state": true,
+            "photo": null
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "label": "Lampe du bureau",
+      "description": "Appareil ajoute depuis Angular",
+      "state": true,
+      "photo": null,
+      "categorie": {
+        "id": 2,
+        "label": "Bureau 1792027974985",
+        "appareilList": [
+          {
+            "id": 2,
+            "label": "Lampe du bureau",
+            "description": "Appareil ajoute depuis Angular",
+            "state": true,
+            "photo": null
+          }
+        ]
+      }
+    }
+  ],
+  "pageErrors": []
+}

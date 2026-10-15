@@ -1,0 +1,5 @@
+{"method": "POST", "port": 19024, "path": "/api/controller/categorie/", "status": 200, "response": {"id": 1, "label": "Salon c76a06", "appareilList": null}}
+{"method": "POST", "port": 19024, "path": "/api/controller/appareil/", "status": 200, "response": {"id": 1, "label": "Lampe", "description": "Lampe du salon", "state": false, "photo": null, "categorie": {"id": 1, "label": "Salon c76a06", "appareilList": []}}}
+{"method": "PUT", "port": 19024, "path": "/api/controller/appareil/id/1", "status": 200, "response": ""}
+{"method": "GET", "port": 19024, "path": "/api/controller/appareil/id/1", "status": 200, "response": {"id": 1, "label": "Lampe", "description": "Lampe du salon", "state": true, "photo": null, "categorie": {"id": 1, "label": "Salon c76a06", "appareilList": [{"id": 1, "label": "Lampe", "description": "Lampe du salon", "state": true, "photo": null}]}}}
+VALIDATION: Angular Nginx origin -> Spring REST -> MySQL, device ON.
